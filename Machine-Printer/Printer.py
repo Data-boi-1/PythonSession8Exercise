@@ -50,7 +50,7 @@ while True:
     print("4. Load Paper")
     print("5. Current Paper Count")
     print("6. Print document")
-    print("7. Quit")
+    print("7. Exit")
 
     choice = input("Enter your choice (1/2/3/4/5/6/7): ")
 
@@ -72,7 +72,7 @@ while True:
         document = input("Enter the document to print: ")
         printer.print_document(document)
     elif choice == '7':
-        print("Goodbye!")
+        print("Exiting...")
         break
     else:
         print("Invalid choice. Please select a valid option.")
