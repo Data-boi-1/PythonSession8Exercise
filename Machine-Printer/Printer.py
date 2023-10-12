@@ -2,6 +2,7 @@ import os
 from Machine import Machine
 from PaperTray import PaperTray
 
+#Printer klassen arver fra Machine klassen vha. super().__init__()
 class Printer(Machine):
     def __init__(self):
         super().__init__()
